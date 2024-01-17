@@ -1,0 +1,110 @@
+*{
+    margin: auto;
+    align-content: 0;
+}
+header{
+    top: 3;
+    right: 7;
+}
+.header{
+    min-height: 100vh;
+    min-width: 50%;
+    background-image: url('https://img.freepik.com/free-photo/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.jpg?w=740&t=st=1705394318~exp=1705394918~hmac=1644c77a21ed2aaf3024b1cf5e8fffeb6aae1be5cbdeb23f11179c5c712b65ab');width: 800px;height: 800vh;
+    }
+    background-repeat: scroll;
+img{
+    width: 50;
+    margin: 10px 5px;
+}
+nav{
+    background-color: #EEE;
+    padding: 10%;
+}
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100px; /* Adjust the width as needed */
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      left: -100px; /* Initially hide the menu off-screen */
+      height: 100%;
+      transition: left 0.3s ease; /* Add smooth transition effect */
+    }
+
+    li {
+      display: block;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    li a:hover {
+      background-color: #555;
+    }
+}
+.navigation-container ul li{
+    margin: auto;
+    max-height: 100vh;
+    text-align: left;
+    flex-basis: 5;
+    flex: 10;
+    display: inline-block;
+    padding: 2%;
+    margin-right: 15px;
+}
+.navigation-container ul li a{
+    display: block;
+    color: #FFAAF4FF;
+    text-decoration: gold;
+    font-size: 20 px;
+}
+.navigation-container ul li::after{
+    color: navajowhite;
+    content: none;
+    width: 0%;
+    height: 5vh;
+    background: goldenrod;
+    display: block;
+    margin: auto;
+}
+.navigation-container ul li:hover::after{
+    color: navajowhite;
+    content: none;
+    width: 100%;
+    height: 5vh;
+    background: goldenrod;
+    display: block;
+    margin: auto;
+}
+.text-box{
+    width: 100%;
+    margin: auto;
+    top: 0%;
+    bottom:100%;
+    text-align: center;
+    position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    
+}
+.text-box h1{
+    font: 65px;
+    color: ;
+}
+.text-box p1{
+    font: 35px;
+    color: #FF4E4E4E;
+}
